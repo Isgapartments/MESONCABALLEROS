@@ -157,7 +157,7 @@ html, body {
     padding: 0;
     width: 100vw;
     height: 100vh; /* Ocupa toda la pantalla */
-    overflow-x: hidden; /* Evita scroll lateral */
+    overflow-x:visible /* Evita scroll lateral */
 }
 
 /* HEADER Y BOTONES IDIOMA */
@@ -200,7 +200,7 @@ header.page-nav {
     }
 
     .home-icon svg {
-        width: 42px; /* Icono más pequeño en teléfonos */
+        width: 50px; /* Icono más pequeño en teléfonos */
     }
 
     .video-grid {
