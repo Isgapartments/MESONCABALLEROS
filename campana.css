@@ -24,8 +24,9 @@ body {
 header.page-nav {
   width: 100%;
   background: transparent;
-  padding: 8px 0 0 0;
+  padding: 0;
   flex-shrink: 0;
+  position: relative;
 }
 
 .page-header-inner {
@@ -34,13 +35,18 @@ header.page-nav {
   align-items: center;
   justify-content: center;
   gap: 0;
+  padding-top: 8px;
 }
 
 .logo-img {
   display: block;
-  max-width: 80px;
+  max-width: 60px;
   height: auto;
   margin: 0;
+  position: absolute;
+  top: 5px;
+  left: 5px;
+  z-index: 10;
 }
 
 .page-header-inner h1 {
@@ -48,6 +54,7 @@ header.page-nav {
   font-weight: bold;
   margin: 4px 0;
   letter-spacing: 0.5px;
+  padding-top: 8px;
 }
 
 .language-buttons {
@@ -190,14 +197,28 @@ header.page-nav {
     display: block;
   }
 
-  .page-header-inner h1 {
-    font-size: 2.2em;
-    margin: 12px 0;
+  header.page-nav {
+    padding-top: 8px;
+    padding-bottom: 0;
+    position: relative;
+  }
+
+  .page-header-inner {
+    padding-top: 0;
   }
 
   .logo-img {
+    position: static;
     max-width: 160px;
     margin: 0 auto 8px auto;
+    top: auto;
+    left: auto;
+  }
+
+  .page-header-inner h1 {
+    font-size: 2.2em;
+    margin: 12px 0;
+    padding-top: 0;
   }
 
   .language-buttons {
@@ -216,6 +237,12 @@ header.page-nav {
     margin: 24px auto 0 auto;
     width: 52px;
     height: 52px;
+  }
+
+  .home-icon svg {
+    width: 52px;
+    height: 52px;
+    fill: #efc577;
   }
 
   .banner {
