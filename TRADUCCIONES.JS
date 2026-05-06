@@ -11,7 +11,9 @@ const translations = {
     "dishwasher-title": "Lavavajillas / Dishwasher",
     "dishwasher-es": "En este video os mostramos como usar la lavavajilla.",
     "hob-title": "Vitroceramica / Electric Hob",
-    "hob-es": "En este video os mostramos como usar nuestra vitroceramica."
+    "hob-es": "En este video os mostramos como usar nuestra vitroceramica." ,
+    "airco-title": "Aire Acondicionado/ Air Conditioner",
+    "airco-es": "En este video os mostramos como usar el aire acondicionado." ,
   },
   en: {
     "header": "ISG MESON DE LOS CABALLEROS",
@@ -24,7 +26,9 @@ const translations = {
     "dishwasher-title": "Dishwasher",
     "dishwasher-es": "In this video we show you how to use the dishwasher.",
     "hob-title": "Electric Hob",
-    "hob-es": "In this video we show you how to use our electric hob."
+    "hob-es": "In this video we show you how to use our electric hob.",
+     "airco-title": " Air Conditioner",
+    "airco-es": "In this video we show you how to use the air conditioner." ,
   },
   fr: {
     "header": "ISG MESON DE LOS CABALELROS",
@@ -37,7 +41,9 @@ const translations = {
     "dishwasher-title": "Lave-vaisselle",
     "dishwasher-es": "Dans cette vidéo, nous vous montrons comment utiliser le lave-vaisselle.",
     "hob-title": "Plaque électrique",
-    "hob-es": "Dans cette vidéo, nous vous montrons comment utiliser notre plaque électrique."
+    "hob-es": "Dans cette vidéo, nous vous montrons comment utiliser notre plaque électrique.",
+     "airco-title": "Climatisation",
+    "airco-es": "Dans cette vidéo, nous vous montrons comment utiliser la climatisation." ,
   }
 };
 
