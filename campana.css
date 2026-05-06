@@ -115,14 +115,7 @@ header.page-nav {
   flex-wrap: wrap;
   flex-shrink: 0;
 }
-.tabs1 {
-  display: flex;
-  justify-content: center;
-  margin: 4px auto;
-  gap: 8px;
-  flex-wrap: wrap;
-  flex-shrink: 0;
-}
+
 .tab-link {
   font-size: 0.85em;
   font-weight: bold;
@@ -136,30 +129,14 @@ header.page-nav {
   transition: background 0.15s;
   white-space: nowrap;
 }
-.tabs1-link {
-  font-size: 0.85em;
-  font-weight: bold;
-  text-decoration: none;
-  color: #f7f5f4;
-  background: #fff7e6;
-  border: 1px solid #efc577;
-  border-radius: 4px;
-  padding: 6px 16px;
-  box-shadow: none;
-  transition: background 0.15s;
-  white-space: nowrap;
-}
+
 .tab-link.active,
 .tab-link:hover {
   background: #efc577;
   border-color: #e2a430;
 }
 
-.tabs1-link.active,
-.tabs1-link:hover {
-  background: #efc577;
-  border-color: #e2a430;
-}
+
 
 /* VIDEO GRID - Single Column for Phone */
 .video-grid {
