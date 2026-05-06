@@ -208,11 +208,11 @@ header.page-nav {
   }
 
   .logo-img {
-    position: static;
-    max-width: 160px;
-    margin: 0 auto 8px auto;
-    top: auto;
-    left: auto;
+    position: absolute;
+    top: 5px;
+    left: 5px;
+    max-width: 100px;
+    margin: 0;
   }
 
   .page-header-inner h1 {
